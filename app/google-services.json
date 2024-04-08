@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "47538413388",
+    "firebase_url": "https://quizappbelhajg51-default-rtdb.firebaseio.com",
+    "project_id": "quizappbelhajg51",
+    "storage_bucket": "quizappbelhajg51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47538413388:android:5ba22fea1fa2f3f124b9e9",
+        "android_client_info": {
+          "package_name": "com.example.quizapp_belhaj_g51_"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZNK1PLqCLNHhjmMZ3g4jsALGb4JznYoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47538413388:android:a052087a7ed4b9fb24b9e9",
+        "android_client_info": {
+          "package_name": "com.example.quizappbelhajg51"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZNK1PLqCLNHhjmMZ3g4jsALGb4JznYoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
