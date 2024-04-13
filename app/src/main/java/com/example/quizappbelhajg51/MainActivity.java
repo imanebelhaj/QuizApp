@@ -1,4 +1,5 @@
 package com.example.quizappbelhajg51;
+import android.content.Context;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -10,6 +11,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.FirebaseAuth;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -21,7 +23,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class MainActivity extends AppCompatActivity {
     //Step 1: Declaration***************************************************************************
     EditText etLogin, etPassword;
-    Button bLogin;
+    Button bLogin, bMap;
     TextView tvRegister;
     FirebaseAuth mAuth;
 
@@ -31,12 +33,17 @@ public class MainActivity extends AppCompatActivity {
         //EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
+
+        FirebaseApp.initializeApp(this);
+
         //Step 2: Recuperation des ids**************************************************************
         etLogin = (EditText) findViewById(R.id.etMail);
         etPassword = (EditText) findViewById(R.id.etPassword);
         bLogin = (Button) findViewById(R.id.bLogin);
+        bMap = (Button) findViewById(R.id.bMap);
         tvRegister = (TextView) findViewById(R.id.tvRegister);
         mAuth=FirebaseAuth.getInstance();
+
 
         //step 3 : Associations des listeners*******************************************************
         bLogin.setOnClickListener(new View.OnClickListener() {
@@ -52,6 +59,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //Step 4:traitement
                 startActivity(new Intent(MainActivity.this, Register.class));
+            }
+        });
+        bMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //step 4 :Traitement****************************************************************
+                startActivity(new Intent(MainActivity.this, MapActivityTest.class));
+
             }
         });
     }

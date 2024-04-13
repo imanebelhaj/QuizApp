@@ -42,27 +42,40 @@
         android:progress="0"
         android:max="100"
         android:indeterminate="false"
-        android:layout_height="228dp" />
+        android:layout_height="100dp" />
+
+
+
+        <fragment
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/bMap"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            tools:context=".Score"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        tools:ignore="ExtraText">
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="Logout"
-            android:id="@+id/bLogout"/>
+            android:text="@string/logout"
+            android:id="@+id/bLogout"
+             />
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="Try again"
-            android:id="@+id/bTry"/>
+            android:text="@string/try_again"
+            android:id="@+id/bTry"
+            />
     </LinearLayout>
-
-
 
 </LinearLayout>

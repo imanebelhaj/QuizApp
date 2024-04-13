@@ -2,6 +2,7 @@ package com.example.quizappbelhajg51;
 
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.view.View;
@@ -10,9 +11,17 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Score extends AppCompatActivity {
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapView;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
+public class Score extends AppCompatActivity  implements OnMapReadyCallback {
     Button bLogout, bTry;
     ProgressBar progressBar;
+    //MapView bMap;
     TextView tvScore;
     int score;
 
@@ -25,12 +34,10 @@ public class Score extends AppCompatActivity {
         progressBar=(ProgressBar) findViewById(R.id.progressBar);
         bLogout=(Button) findViewById(R.id.bLogout);
         bTry=(Button) findViewById(R.id.bTry);
+        //bMap = findViewById(R.id.bMap);
         Intent intent=getIntent();
         score=intent.getIntExtra("score",0) ;
-        //chat gpt
-        //int percentage = 100 * score / 5;
-        //tvScore.setText(percentage + "%");
-        //progressBar.setProgress(percentage);
+
 
         progressBar.setProgress(100*score/5);
         tvScore.setText(100*score/5+" %");
@@ -49,5 +56,22 @@ public class Score extends AppCompatActivity {
             }
         });
 
+
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.bMap);
+        assert mapFragment != null;
+        mapFragment.getMapAsync(this);
+
+        // Initialize the map view
+        //bMap.onCreate(savedInstanceState);
+        //bMap.getMapAsync(this);
+
+    }
+
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
+        googleMap.addMarker(new MarkerOptions()
+                .position(new LatLng(0, 0))
+                .title("Marker"));
     }
 }
