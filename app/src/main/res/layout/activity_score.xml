@@ -39,9 +39,8 @@
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyle"
         android:layout_width="match_parent"
-        android:progress="0"
-        android:max="100"
         android:indeterminate="false"
+        android:progress="1"
         android:layout_height="100dp" />
 
 
