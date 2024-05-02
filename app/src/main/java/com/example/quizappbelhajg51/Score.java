@@ -32,13 +32,13 @@ import com.google.android.gms.tasks.OnSuccessListener;
 
 
 
-//import com.github.lzyzsd.circleprogress.DonutProgress;
+import com.github.lzyzsd.circleprogress.DonutProgress;
 
 public class Score extends AppCompatActivity  implements OnMapReadyCallback, ActivityCompat.OnRequestPermissionsResultCallback  {
     private static final int LOCATION_PERMISSION_REQUEST_CODE = 1;
     private GoogleMap mMap;
     Button bLogout, bTry;
-    ProgressBar progressBar;
+   // ProgressBar progressBar;
     //MapView bMap;
     TextView tvScore;
     int score;
@@ -51,7 +51,7 @@ public class Score extends AppCompatActivity  implements OnMapReadyCallback, Act
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_score);
         tvScore =(TextView) findViewById(R.id.tvScore);
-        progressBar=(ProgressBar) findViewById(R.id.progressBar);
+        //progressBar=(ProgressBar) findViewById(R.id.progressBar);
         bLogout=(Button) findViewById(R.id.bLogout);
         bTry=(Button) findViewById(R.id.bTry);
         //bMap = findViewById(R.id.bMap);
@@ -59,7 +59,7 @@ public class Score extends AppCompatActivity  implements OnMapReadyCallback, Act
         score=intent.getIntExtra("score",0) ;
 
 
-        progressBar.setProgress(100*score/5);
+      //  progressBar.setProgress(100*score/5);
         tvScore.setText(100*score/5+" %");
         //Toast.makeText(getApplicationContext(),score+"",Toast.LENGTH_SHORT).show();
         bLogout.setOnClickListener(new View.OnClickListener() {

@@ -18,14 +18,15 @@
         android:textSize="25sp"
         android:textStyle="bold"
         />
+
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/q2"/>
+        android:layout_height="263dp"
+        android:src="@drawable/mine" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Le panneau de danger indique une succession de virages dont le 1er est :"
+        android:text="Which programming language was used to develop the popular game Minecraft?"
         android:textSize="20sp"
         android:layout_marginBottom="20sp"
         android:textStyle="bold"/>
@@ -40,14 +41,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="À droite" />
+            android:text="Java" />
 
         <RadioButton
             android:id="@+id/rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="À gauche" />
+            android:text="C++" />
 
     </RadioGroup>
 
@@ -56,10 +57,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Next"
+        android:backgroundTint="@color/black"
         android:layout_marginTop="20dp"/>
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="80dp"
-        android:src="@drawable/logoo"/>
 
 </LinearLayout>

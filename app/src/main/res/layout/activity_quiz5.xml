@@ -21,12 +21,12 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/q5"/>
+        android:layout_height="261dp"
+        android:src="@drawable/game" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="En conduisant, je peux utiliser mon portable pour écrire un texto ou composer un numéro :"
+        android:text="What is the name of the first video game ever created, which simulated a game of table tennis?"
         android:textSize="20sp"
         android:layout_marginBottom="20sp"
         android:textStyle="bold"/>
@@ -41,14 +41,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Oui" />
+            android:text="Pong" />
 
         <RadioButton
             android:id="@+id/rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Non" />
+            android:text="Space Invaders" />
 
 
     </RadioGroup>
@@ -58,12 +58,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Next"
+        android:backgroundTint="@color/black"
         android:layout_marginTop="20dp"/>
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="80dp"
-        android:src="@drawable/logoo"/>
-
 
 </LinearLayout>
 

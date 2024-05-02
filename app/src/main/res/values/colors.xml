@@ -3,5 +3,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="teal_700">#FF009688</color>
+    <color name="pink">#FFFF4081</color> <!-- Standard Pink -->
+    <color name="light_pink">#FFFFC0CB</color> <!-- Light Pink -->
+    <color name="hot_pink">#FFFF69B4</color> <!-- Hot Pink -->
+    <color name="baby_pink">#FFF4CCCC</color> <!-- Baby Pink -->
+    <color name="cute_pink">#FFFFB6C1</color> <!-- Cute Pink -->
 
 </resources>

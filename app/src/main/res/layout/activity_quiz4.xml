@@ -18,14 +18,17 @@
         android:textSize="25sp"
         android:textStyle="bold"
         />
+
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/q4"/>
+        android:layout_height="300dp"
+        android:src="@drawable/web" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="En tant qu'automobiliste, vous devez être plus vigilant lorsque :"
+        android:text="What was the name of the first widely popular web browser, released in 1993?
+"
         android:textSize="20sp"
         android:layout_marginBottom="20sp"
         android:textStyle="bold"/>
@@ -40,14 +43,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Le tramway est arrêté" />
+            android:text="Internet Explorer" />
 
         <RadioButton
             android:id="@+id/rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Le tramway circule" />
+            android:text="Mosaic" />
 
 
     </RadioGroup>
@@ -57,11 +60,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Next"
+        android:backgroundTint="@color/black"
         android:layout_marginTop="20dp"/>
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="80dp"
-        android:src="@drawable/logoo"/>
+
 
 
 </LinearLayout>

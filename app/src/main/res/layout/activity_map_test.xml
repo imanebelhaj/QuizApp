@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:text="Return to login"
         android:textSize="20sp"
+        android:backgroundTint="@color/black"
         android:id="@+id/bLogin" />
 
     <fragment
