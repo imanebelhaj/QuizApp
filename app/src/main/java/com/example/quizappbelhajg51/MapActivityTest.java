@@ -69,7 +69,7 @@ public class MapActivityTest extends AppCompatActivity implements OnMapReadyCall
             @Override
             public void onClick(View view) {
                 //step 4 :Traitement****************************************************************
-                startActivity(new Intent(MapActivityTest.this, MainActivity.class));
+                startActivity(new Intent(MapActivityTest.this, Home.class));
 
             }
         });

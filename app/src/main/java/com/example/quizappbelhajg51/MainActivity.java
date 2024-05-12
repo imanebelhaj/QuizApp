@@ -23,7 +23,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class MainActivity extends AppCompatActivity {
     //Step 1: Declaration***************************************************************************
     EditText etLogin, etPassword;
-    Button bLogin, bMap;
+    Button bLogin;
     TextView tvRegister;
     FirebaseAuth mAuth;
 
@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
         etLogin = (EditText) findViewById(R.id.etMail);
         etPassword = (EditText) findViewById(R.id.etPassword);
         bLogin = (Button) findViewById(R.id.bLogin);
-        bMap = (Button) findViewById(R.id.bMap);
         tvRegister = (TextView) findViewById(R.id.tvRegister);
         mAuth=FirebaseAuth.getInstance();
 
@@ -61,14 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, Register.class));
             }
         });
-        bMap.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //step 4 :Traitement****************************************************************
-                startActivity(new Intent(MainActivity.this, MapActivityTest.class));
 
-            }
-        });
     }
 
     private void signIn(String mail, String password) {
@@ -76,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
-                    startActivity(new Intent(MainActivity.this, Quiz1.class));
+                    startActivity(new Intent(MainActivity.this, Home.class));
                 }
                 else {
                     Toast.makeText(getApplicationContext(),"Login or password incorrect !",Toast.LENGTH_SHORT).show();
