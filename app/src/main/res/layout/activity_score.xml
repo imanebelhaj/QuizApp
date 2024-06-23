@@ -14,8 +14,9 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="224dp"
-        android:src="@drawable/gameover" />
+        android:layout_height="206dp"
+        android:background="@drawable/rounded_corners"
+        android:src="@drawable/img8" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -31,7 +32,7 @@
         android:layout_height="65dp"
         android:layout_gravity="center"
         android:text="50%"
-        android:textColor="@color/cute_pink"
+        android:textColor="@color/dark_blue"
         android:textSize="40dp"
         android:textStyle="bold" />
 
@@ -57,7 +58,7 @@
         android:id="@+id/bMap"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="277dp"
+        android:layout_height="297dp"
         tools:context=".Score" />
 
 
@@ -65,22 +66,32 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginTop="10dp"
         tools:ignore="ExtraText">
+
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:text="@string/logout"
             android:id="@+id/bLogout"
-            android:backgroundTint="@color/black"
-             />
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:elevation="4dp"
+            android:text="@string/logout"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:backgroundTint="@color/dark_blue"
+            app:cornerRadius="16dp"
+           />
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:text="@string/try_again"
             android:id="@+id/bTry"
-            android:backgroundTint="@color/cute_pink"
+            android:elevation="4dp"
+            android:textSize="18sp"
+            app:cornerRadius="16dp"
+            app:backgroundTint="@color/sky_blue"
+            android:textColor="@android:color/white"
             />
     </LinearLayout>
 

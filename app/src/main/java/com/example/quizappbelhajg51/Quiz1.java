@@ -21,7 +21,7 @@ public class Quiz1 extends AppCompatActivity {
     RadioButton rb;
     Button bNext;
     int score=0;
-    String RepCorrect="INTEGER :: X";
+    String RepCorrect="Java";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -8,5 +8,23 @@
     <color name="hot_pink">#FFFF69B4</color> <!-- Hot Pink -->
     <color name="baby_pink">#FFF4CCCC</color> <!-- Baby Pink -->
     <color name="cute_pink">#FFFFB6C1</color> <!-- Cute Pink -->
+    <color name="modern_blue">#007AFF</color>
+    <color name="dark_blue">#005BBB</color>
+    <color name="light_gray">#F2F2F7</color>
+    <color name="sky_blue">#87CEEB</color>
+    <color name="navy_blue">#000080</color>
+    <color name="royal_blue">#4169E1</color>
+    <color name="light_blue">#ADD8E6</color>
+    <color name="midnight_blue">#191970</color>
+    <color name="steel_blue">#4682B4</color>
+    <color name="dodger_blue">#1E90FF</color>
+    <color name="deep_sky_blue">#00BFFF</color>
+    <color name="cornflower_blue">#6495ED</color>
+    <color name="slate_blue">#6A5ACD</color>
+    <color name="electric_blue">#7DF9FF</color>
+    <color name="azure_blue">#007FFF</color>
+    <color name="prussian_blue">#003153</color>
+    <color name="sapphire_blue">#0F52BA</color>
+
 
 </resources>

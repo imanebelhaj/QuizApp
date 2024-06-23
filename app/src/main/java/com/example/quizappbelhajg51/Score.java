@@ -65,8 +65,10 @@ public class Score extends AppCompatActivity  implements OnMapReadyCallback, Act
         bLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Merci de votre Participation !", Toast.LENGTH_SHORT).show();
-                finish();
+
+                    startActivity(new Intent(Score.this,MainActivity.class));
+
+
             }
         });
         bTry.setOnClickListener(new View.OnClickListener() {

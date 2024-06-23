@@ -17,7 +17,7 @@ public class Quiz2 extends AppCompatActivity {
     RadioButton rb;
     Button bNext;
     int score;
-    String RepCorrect="Java";
+    String RepCorrect="Android Studio";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
