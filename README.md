@@ -78,8 +78,8 @@ Here are some screenshots of the Quiz App:
 
 ### Login, Register and Home
 <img width="203" alt="login" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/812609cf-8ea5-45ad-b937-29698a479ef3">
-<img width="180" alt="register" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/202114ee-0b25-4edd-881a-da565c3df0aa">
-<img width="140" alt="home" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/ae03946e-9735-4ed5-af38-908fad878fd4">
+<img width="183" alt="register" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/202114ee-0b25-4edd-881a-da565c3df0aa">
+<img width="130" alt="home" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/ae03946e-9735-4ed5-af38-908fad878fd4">
 
 ### QUiz examples and Score
 
