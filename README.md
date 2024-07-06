@@ -66,8 +66,7 @@ Quiz App is an interactive and educational Android mobile application designed t
 ## Contributors
 
 - **Imane Belhaj**
-- **Assia Bouoitlan**
-- Supervised by: **Prof Said Nazhaoui**
+
 
 ## License
 
@@ -78,16 +77,27 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Here are some screenshots of the Quiz App:
 
 ### Login Screen
-![Login Screen](path/to/login_screen.png)
+
+<img width="369" alt="login" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/812609cf-8ea5-45ad-b937-29698a479ef3">
 
 ### Register Screen
-![Register Screen](path/to/login_screen.png)
+<img width="339" alt="register" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/202114ee-0b25-4edd-881a-da565c3df0aa">
+
+### Home Screen
+<img width="230" alt="home" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/ae03946e-9735-4ed5-af38-908fad878fd4">
+
 
 ### Quiz Screen
-![Quiz Screen](path/to/quiz_screen.png)
+<img width="460" alt="quiz1" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/98813b38-de06-4d89-9efd-7c5a32a4ed46">
+<img width="234" alt="quiz2" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/5641204b-dfe9-4ed5-97f2-4b7520b78453">
+<img width="451" alt="quiz3" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/87dc5cfc-348b-45fd-b533-a594075ae9a7">
+<img width="284" alt="quiz4" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/6a0f5280-b358-4406-b90d-ea2083b7dfe3">
+<img width="264" alt="quiz5" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/2093931a-0c90-433f-98d1-20d9cb86e267">
+
 
 ### Score Screen
-![Score Screen](path/to/score_screen.png)
+<img width="236" alt="score" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/acf80b79-7239-4c3e-8e7f-16be4bc97db0">
+
 
 
 
