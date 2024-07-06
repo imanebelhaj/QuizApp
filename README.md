@@ -76,11 +76,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Here are some screenshots of the Quiz App:
 
-### Login Screen
+### Login and Register Screen
 
 <img width="200" alt="login" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/812609cf-8ea5-45ad-b937-29698a479ef3">
 
-### Register Screen
 <img width="200" alt="register" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/202114ee-0b25-4edd-881a-da565c3df0aa">
 
 ### Home Screen
@@ -88,10 +87,10 @@ Here are some screenshots of the Quiz App:
 
 
 ### Quiz Screen
-<img width="200" alt="quiz1" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/98813b38-de06-4d89-9efd-7c5a32a4ed46">
-<img width="200" alt="quiz2" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/5641204b-dfe9-4ed5-97f2-4b7520b78453">
-<img width="200" alt="quiz3" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/87dc5cfc-348b-45fd-b533-a594075ae9a7">
-<img width="200" alt="quiz4" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/6a0f5280-b358-4406-b90d-ea2083b7dfe3">
+<img width="460" alt="quiz1" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/e0828ee6-8514-472d-b41b-dc2e60e77157">
+<img width="234" alt="quiz2" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/642359c1-6562-4eef-a4cb-52f9c7f81289">
+<img width="451" alt="quiz3" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/52a68dcb-633c-4e54-94be-7c9edba055c8">
+<img width="284" alt="quiz4" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/7f05e519-07b1-4e2b-a7d4-93c2529b42f1">
 
 
 
