@@ -76,17 +76,15 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Here are some screenshots of the Quiz App:
 
+### Login, Register and Home
 <img width="203" alt="login" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/812609cf-8ea5-45ad-b937-29698a479ef3">
 <img width="180" alt="register" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/202114ee-0b25-4edd-881a-da565c3df0aa">
 <img width="140" alt="home" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/ae03946e-9735-4ed5-af38-908fad878fd4">
 
+### QUiz examples and Score
 
 <img width="180" alt="quiz1" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/e0828ee6-8514-472d-b41b-dc2e60e77157">
 <img width="150" alt="quiz2" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/642359c1-6562-4eef-a4cb-52f9c7f81289">
-<img width="451" alt="quiz3" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/52a68dcb-633c-4e54-94be-7c9edba055c8">
-<img width="284" alt="quiz4" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/7f05e519-07b1-4e2b-a7d4-93c2529b42f1">
-
-
 <img width="160" alt="score" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/acf80b79-7239-4c3e-8e7f-16be4bc97db0">
 
 
