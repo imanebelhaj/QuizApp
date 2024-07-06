@@ -84,8 +84,8 @@ Here are some screenshots of the Quiz App:
 ### QUiz examples and Score
 
 <img width="260" alt="quiz1" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/e0828ee6-8514-472d-b41b-dc2e60e77157">
-<img width="130" alt="quiz2" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/642359c1-6562-4eef-a4cb-52f9c7f81289">
-<img width="150" alt="score" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/acf80b79-7239-4c3e-8e7f-16be4bc97db0">
+<img width="135" alt="quiz2" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/642359c1-6562-4eef-a4cb-52f9c7f81289">
+<img width="140" alt="score" src="https://github.com/imanebelhaj/QuizApp/assets/114827745/acf80b79-7239-4c3e-8e7f-16be4bc97db0">
 
 
 
